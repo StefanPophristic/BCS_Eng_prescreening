@@ -108,11 +108,6 @@ function make_slides(f) {
       exp.email = document.getElementById("email").value;
     },
     button : function() {
-      exp.email = document.getElementById("email").value;
-      exp.data_trials.push({
-        "trial_type" : "info",
-        'response' : exp.email
-      });
         exp.go();
     }
   });
